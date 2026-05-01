@@ -2,11 +2,11 @@
 import { useState } from 'react';
 import { supabase } from '@/lib/supabaseClient';
 
-export function ImageUploader({ onUpload, assetType, entityId }) {
+export function ImageUploader({ onUpload, assetType, entityId }: { onUpload: (url: string) => void; assetType: string; entityId: string }) {
   const [uploading, setUploading] = useState(false);
 
-  const handleChange = async (e) => {
-    const file = e.target.files[0];
+  const handleChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
     if (!file) return;
 
     setUploading(true);

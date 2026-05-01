@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import { supabase } from '@/lib/supabaseClient';
 
-export function BodyMap({ onSelectArea, selectedArea, coachId }) {
+export function BodyMap({ onSelectArea, selectedArea, coachId }: { onSelectArea: (area: string) => void; selectedArea?: string; coachId?: string }) {
   const [backgroundUrl, setBackgroundUrl] = useState('/default-body-map.svg');
   const [loading, setLoading] = useState(true);
 

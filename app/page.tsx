@@ -2,11 +2,11 @@
 import { useState, useEffect } from 'react';
 
 export default function Home() {
-  const [selectedPoint, setSelectedPoint] = useState(null);
-  const [mediaUrl, setMediaUrl] = useState(null);  // puede ser imagen o video
-  const [mediaTipo, setMediaTipo] = useState('imagen');
+  const [selectedPoint, setSelectedPoint] = useState<string | null>(null);
+  const [mediaUrl, setMediaUrl] = useState<string | null>(null);  // puede ser imagen o video
+  const [mediaTipo, setMediaTipo] = useState<'imagen' | 'video'>('imagen');
   const [rotacion, setRotacion] = useState(0);
-  const [ejerciciosRecomendados, setEjerciciosRecomendados] = useState([]);
+  const [ejerciciosRecomendados, setEjerciciosRecomendados] = useState<any[]>([]);
   const [mensaje, setMensaje] = useState('');
 
   const puntosPorDefecto = [
@@ -53,17 +53,17 @@ export default function Home() {
     setTimeout(() => setMensaje(''), 2000);
   };
 
-  const convertirABase64 = (archivo) => {
+  const convertirABase64 = (archivo: File): Promise<string> => {
     return new Promise((resolve, reject) => {
       const reader = new FileReader();
-      reader.onload = () => resolve(reader.result);
+      reader.onload = () => resolve(reader.result as string);
       reader.onerror = reject;
       reader.readAsDataURL(archivo);
     });
   };
 
-  const subirArchivo = async (e) => {
-    const archivo = e.target.files[0];
+  const subirArchivo = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const archivo = e.target.files?.[0];
     if (!archivo) return;
 
     const tipo = archivo.type.startsWith('image/') ? 'imagen' : 'video';
@@ -90,7 +90,7 @@ export default function Home() {
     setTimeout(() => setMensaje(''), 1500);
   };
 
-  const moverPunto = (deltaX, deltaY) => {
+  const moverPunto = (deltaX: number, deltaY: number) => {
     if (selectedPoint === null) {
       setMensaje('Primero selecciona un punto rojo');
       setTimeout(() => setMensaje(''), 1000);
@@ -140,9 +140,9 @@ export default function Home() {
     'Tobillo derecho': [{ nombre: 'Círculos de tobillo', duracion: '30', dificultad: 'Baja', instrucciones: 'Rota el tobillo.' }]
   };
 
-  const seleccionarZona = (nombre) => {
+  const seleccionarZona = (nombre: string) => {
     setSelectedPoint(nombre);
-    setEjerciciosRecomendados(ejerciciosPorZona[nombre] || []);
+    setEjerciciosRecomendados((ejerciciosPorZona as Record<string, any>)[nombre] || []);
   };
 
   const irARutina = () => {

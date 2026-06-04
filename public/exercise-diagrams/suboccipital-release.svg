@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420">
+  <rect width="640" height="420" fill="#f8fafc"/>
+  <text x="32" y="48" font-family="Arial" font-size="28" font-weight="700" fill="#0f172a">Liberacion suboccipital</text>
+  <rect x="110" y="275" width="420" height="28" rx="14" fill="#cbd5e1"/>
+  <circle cx="255" cy="178" r="52" fill="#dbeafe" stroke="#2563eb" stroke-width="6"/>
+  <path d="M308 188c70 8 115 38 142 88" stroke="#2563eb" stroke-width="22" stroke-linecap="round"/>
+  <rect x="196" y="238" width="118" height="34" rx="17" fill="#16a34a"/>
+  <path d="M240 160c26 14 53 14 80 0" stroke="#0f172a" stroke-width="5" stroke-linecap="round"/>
+  <path d="M250 220c-28 18-45 34-52 53" stroke="#ef4444" stroke-width="6" stroke-linecap="round" stroke-dasharray="8 8"/>
+  <text x="370" y="150" font-family="Arial" font-size="18" fill="#334155">Toalla bajo base del craneo</text>
+  <text x="370" y="182" font-family="Arial" font-size="18" fill="#334155">Respira y relaja cuello</text>
+</svg>

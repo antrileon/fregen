@@ -1,0 +1,36 @@
+ESTILO FIJO PARA TODOS LOS VIDEOS REGENMOVE:
+- Duracion exacta: 10 segundos.
+- Video clinico moderno, fondo claro y limpio.
+- Una persona con ropa deportiva neutra.
+- Cuerpo visible y movimiento lento, controlado y seguro.
+- Camara fija, plano medio o cuerpo completo segun ejercicio.
+- Luz suave, sin dramatizar dolor.
+- Texto en pantalla minimalista.
+- Voz en off calmada, profesional y breve.
+- No prometer cura inmediata.
+
+ESTRUCTURA OBLIGATORIA DEL CLIP:
+0-2s: mostrar nombre del ejercicio y posicion inicial.
+2-8s: mostrar la ejecucion del movimiento con ritmo lento.
+8-10s: mostrar regla de seguridad o dolor.
+
+VIDEO 01 DE 11
+Nombre del ejercicio: Deslizamiento del nervio mediano
+Zona: Cuello
+Objetivo: Liberar tension neural cervical y disminuir dolor que baja hacia hombro, brazo o mano.
+
+INSTRUCCION VISUAL:
+Persona de pie o sentada, torso recto. Brazo abre a 45 grados con palma hacia arriba. Muneca y dedos se extienden suavemente. La cabeza se inclina al lado contrario y vuelve al centro.
+
+TEXTO EN PANTALLA:
+Tension suave. No forzar. 8 repeticiones.
+
+VOZ EN OFF:
+Colocate sentado o de pie con los hombros relajados. Abre el brazo a cuarenta y cinco grados con la palma hacia arriba. Extiende suavemente la muneca y los dedos, sin buscar dolor. Inclina la cabeza hacia el lado contrario y vuelve al centro. Repite lento. Debes sentir tension ligera, no corriente ni hormigueo fuerte.
+
+REGLA FINAL DE SEGURIDAD:
+Detener si aumenta hormigueo, corriente o dolor irradiado.
+
+IMPORTANTE:
+Generar solo este ejercicio como un clip independiente de 10 segundos.
+Mantener este mismo estilo para todos los demas prompts de RegenMove.

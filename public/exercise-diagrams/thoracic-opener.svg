@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420">
+  <rect width="640" height="420" fill="#f8fafc"/>
+  <text x="32" y="48" font-family="Arial" font-size="28" font-weight="700" fill="#0f172a">Apertura toracica</text>
+  <rect x="230" y="245" width="180" height="28" rx="14" fill="#94a3b8"/>
+  <path d="M320 272v85" stroke="#94a3b8" stroke-width="14"/>
+  <circle cx="318" cy="118" r="32" fill="#dbeafe" stroke="#2563eb" stroke-width="6"/>
+  <path d="M318 154c-12 70 8 118 62 145" fill="none" stroke="#2563eb" stroke-width="20" stroke-linecap="round"/>
+  <path d="M290 178l-78 72M345 178l76 70" stroke="#16a34a" stroke-width="14" stroke-linecap="round"/>
+  <path d="M395 135c42 24 66 60 72 108" fill="none" stroke="#ef4444" stroke-width="7" stroke-dasharray="9 9"/>
+  <text x="420" y="306" font-family="Arial" font-size="18" fill="#334155">Abre pecho</text>
+  <text x="420" y="336" font-family="Arial" font-size="18" fill="#334155">Respira lento</text>
+</svg>

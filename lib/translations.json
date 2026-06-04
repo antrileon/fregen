@@ -1,0 +1,156 @@
+{
+  "es": {
+    "nav": {
+      "home": "Inicio",
+      "assessment": "Evaluación",
+      "dashboard": "Panel"
+    },
+    "auth": {
+      "login": "Iniciar Sesión",
+      "signup": "Registrarse",
+      "logout": "Cerrar Sesión",
+      "email": "Correo electrónico",
+      "password": "Contraseña",
+      "confirmPassword": "Confirmar contraseña",
+      "forgotPassword": "Olvidé mi contraseña",
+      "resetPassword": "Restablecer contraseña",
+      "loginTitle": "Inicia sesión en tu cuenta",
+      "signupTitle": "Crea tu cuenta",
+      "loginDescription": "Ingresa tus credenciales para acceder",
+      "signupDescription": "Únete a la comunidad de rehabilitación",
+      "selectRole": "Selecciona tu rol",
+      "selectRoleDescription": "Elige cómo usarás la plataforma",
+      "roles": {
+        "patient": {
+          "title": "Paciente",
+          "description": "Accede a tus rutinas de rehabilitación personalizadas"
+        },
+        "coach": {
+          "title": "Entrenador",
+          "description": "Crea y gestiona programas de rehabilitación"
+        },
+        "clinic": {
+          "title": "Clínica",
+          "description": "Administra múltiples pacientes y entrenadores"
+        }
+      },
+      "loginButton": "Iniciar Sesión",
+      "signupButton": "Crear Cuenta",
+      "loading": "Cargando...",
+      "error": "Error",
+      "success": "Éxito",
+      "invalidCredentials": "Credenciales inválidas",
+      "emailRequired": "El correo electrónico es requerido",
+      "passwordRequired": "La contraseña es requerida",
+      "passwordMismatch": "Las contraseñas no coinciden",
+      "roleRequired": "Debes seleccionar un rol",
+      "accountCreated": "Cuenta creada exitosamente",
+      "checkEmail": "Revisa tu correo para confirmar tu cuenta"
+    },
+    "home": {
+      "title": "Bienvenido a RegenMove",
+      "subtitle": "Tu compañero inteligente para la rehabilitación física",
+      "description": "Utiliza IA avanzada para crear rutinas personalizadas de rehabilitación basadas en tu condición específica.",
+      "getStarted": "Comenzar",
+      "features": {
+        "assessment": "Evaluación Inteligente",
+        "assessmentDesc": "Análisis detallado de tu condición física",
+        "personalized": "Rutinas Personalizadas",
+        "personalizedDesc": "Ejercicios adaptados a tus necesidades",
+        "progress": "Seguimiento de Progreso",
+        "progressDesc": "Monitorea tu recuperación en tiempo real"
+      }
+    },
+    "common": {
+      "loading": "Cargando...",
+      "error": "Error",
+      "success": "Éxito",
+      "cancel": "Cancelar",
+      "save": "Guardar",
+      "delete": "Eliminar",
+      "edit": "Editar",
+      "back": "Volver",
+      "next": "Siguiente",
+      "previous": "Anterior",
+      "close": "Cerrar",
+      "open": "Abrir"
+    }
+  },
+  "en": {
+    "nav": {
+      "home": "Home",
+      "assessment": "Assessment",
+      "dashboard": "Dashboard"
+    },
+    "auth": {
+      "login": "Login",
+      "signup": "Sign Up",
+      "logout": "Logout",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "forgotPassword": "Forgot Password",
+      "resetPassword": "Reset Password",
+      "loginTitle": "Sign in to your account",
+      "signupTitle": "Create your account",
+      "loginDescription": "Enter your credentials to access",
+      "signupDescription": "Join the rehabilitation community",
+      "selectRole": "Select your role",
+      "selectRoleDescription": "Choose how you'll use the platform",
+      "roles": {
+        "patient": {
+          "title": "Patient",
+          "description": "Access your personalized rehabilitation routines"
+        },
+        "coach": {
+          "title": "Coach",
+          "description": "Create and manage rehabilitation programs"
+        },
+        "clinic": {
+          "title": "Clinic",
+          "description": "Manage multiple patients and coaches"
+        }
+      },
+      "loginButton": "Sign In",
+      "signupButton": "Create Account",
+      "loading": "Loading...",
+      "error": "Error",
+      "success": "Success",
+      "invalidCredentials": "Invalid credentials",
+      "emailRequired": "Email is required",
+      "passwordRequired": "Password is required",
+      "passwordMismatch": "Passwords do not match",
+      "roleRequired": "You must select a role",
+      "accountCreated": "Account created successfully",
+      "checkEmail": "Check your email to confirm your account"
+    },
+    "home": {
+      "title": "Welcome to RegenMove",
+      "subtitle": "Your intelligent companion for physical rehabilitation",
+      "description": "Use advanced AI to create personalized rehabilitation routines based on your specific condition.",
+      "getStarted": "Get Started",
+      "features": {
+        "assessment": "Smart Assessment",
+        "assessmentDesc": "Detailed analysis of your physical condition",
+        "personalized": "Personalized Routines",
+        "personalizedDesc": "Exercises adapted to your needs",
+        "progress": "Progress Tracking",
+        "progressDesc": "Monitor your recovery in real time"
+      }
+    },
+    "common": {
+      "loading": "Loading...",
+      "error": "Error",
+      "success": "Success",
+      "cancel": "Cancel",
+      "save": "Save",
+      "delete": "Delete",
+      "edit": "Edit",
+      "back": "Back",
+      "next": "Next",
+      "previous": "Previous",
+      "close": "Close",
+      "open": "Open"
+    }
+  }
+}

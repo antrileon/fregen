@@ -28,6 +28,7 @@ out/
 # OS
 .DS_Store
 Thumbs.db
+__MACOSX/
 
 # Logs
 npm-debug.log*
@@ -37,3 +38,9 @@ yarn-error.log*
 # Cache
 .cache
 .turbo
+
+# Local stray project files
+new/
+mega_learning.sqlite
+mega_trading_bot.py
+regenmove-complete-documentation.zip

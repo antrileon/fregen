@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420">
+  <rect width="640" height="420" fill="#f8fafc"/>
+  <text x="32" y="48" font-family="Arial" font-size="28" font-weight="700" fill="#0f172a">Puente corto</text>
+  <rect x="90" y="310" width="460" height="24" rx="12" fill="#cbd5e1"/>
+  <circle cx="172" cy="245" r="32" fill="#dbeafe" stroke="#2563eb" stroke-width="6"/>
+  <path d="M205 250c82-58 175-58 280 0" fill="none" stroke="#2563eb" stroke-width="22" stroke-linecap="round"/>
+  <path d="M300 248l-58 64M430 248l50 64" stroke="#16a34a" stroke-width="18" stroke-linecap="round"/>
+  <path d="M330 220c38-28 80-28 126 0" fill="none" stroke="#ef4444" stroke-width="7" stroke-dasharray="9 9"/>
+  <text x="365" y="130" font-family="Arial" font-size="18" fill="#334155">Eleva cadera</text>
+  <text x="365" y="160" font-family="Arial" font-size="18" fill="#334155">Activa gluteos</text>
+</svg>

@@ -1,0 +1,36 @@
+ESTILO FIJO PARA TODOS LOS VIDEOS REGENMOVE:
+- Duracion exacta: 10 segundos.
+- Video clinico moderno, fondo claro y limpio.
+- Una persona con ropa deportiva neutra.
+- Cuerpo visible y movimiento lento, controlado y seguro.
+- Camara fija, plano medio o cuerpo completo segun ejercicio.
+- Luz suave, sin dramatizar dolor.
+- Texto en pantalla minimalista.
+- Voz en off calmada, profesional y breve.
+- No prometer cura inmediata.
+
+ESTRUCTURA OBLIGATORIA DEL CLIP:
+0-2s: mostrar nombre del ejercicio y posicion inicial.
+2-8s: mostrar la ejecucion del movimiento con ritmo lento.
+8-10s: mostrar regla de seguridad o dolor.
+
+VIDEO 07 DE 11
+Nombre del ejercicio: Puente corto de descarga lumbar
+Zona: Espalda baja
+Objetivo: Reforzar gluteos para quitar carga repetida de la zona lumbar.
+
+INSTRUCCION VISUAL:
+Persona boca arriba, rodillas flexionadas y pies apoyados. Eleva cadera hasta alinear tronco y baja lento.
+
+TEXTO EN PANTALLA:
+Activa gluteos. 8 repeticiones.
+
+VOZ EN OFF:
+Acuestate boca arriba con rodillas flexionadas y pies apoyados. Activa los gluteos suavemente. Eleva la cadera hasta formar una linea comoda con el tronco. Baja lento, vertebra por vertebra. Mantén cuello y hombros relajados.
+
+REGLA FINAL DE SEGURIDAD:
+Suspender si aumenta dolor lumbar durante la elevacion.
+
+IMPORTANTE:
+Generar solo este ejercicio como un clip independiente de 10 segundos.
+Mantener este mismo estilo para todos los demas prompts de RegenMove.

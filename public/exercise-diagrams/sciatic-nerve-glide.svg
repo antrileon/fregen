@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420">
+  <rect width="640" height="420" fill="#f8fafc"/>
+  <text x="32" y="48" font-family="Arial" font-size="28" font-weight="700" fill="#0f172a">Deslizamiento nervio ciatico</text>
+  <rect x="235" y="240" width="150" height="28" rx="8" fill="#94a3b8"/>
+  <rect x="355" y="240" width="26" height="105" fill="#94a3b8"/>
+  <circle cx="255" cy="118" r="32" fill="#dbeafe" stroke="#2563eb" stroke-width="6"/>
+  <path d="M255 154l45 86" stroke="#2563eb" stroke-width="18" stroke-linecap="round"/>
+  <path d="M298 240l120 18" stroke="#16a34a" stroke-width="18" stroke-linecap="round"/>
+  <path d="M418 258l56-24" stroke="#16a34a" stroke-width="12" stroke-linecap="round"/>
+  <path d="M305 240l-45 90" stroke="#2563eb" stroke-width="18" stroke-linecap="round"/>
+  <path d="M418 292c-28-42-42-82-40-119" fill="none" stroke="#ef4444" stroke-width="7" stroke-dasharray="9 9"/>
+  <text x="410" y="325" font-family="Arial" font-size="18" fill="#334155">Extiende y regresa</text>
+</svg>

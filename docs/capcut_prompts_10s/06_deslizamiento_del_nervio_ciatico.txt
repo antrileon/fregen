@@ -1,0 +1,36 @@
+ESTILO FIJO PARA TODOS LOS VIDEOS REGENMOVE:
+- Duracion exacta: 10 segundos.
+- Video clinico moderno, fondo claro y limpio.
+- Una persona con ropa deportiva neutra.
+- Cuerpo visible y movimiento lento, controlado y seguro.
+- Camara fija, plano medio o cuerpo completo segun ejercicio.
+- Luz suave, sin dramatizar dolor.
+- Texto en pantalla minimalista.
+- Voz en off calmada, profesional y breve.
+- No prometer cura inmediata.
+
+ESTRUCTURA OBLIGATORIA DEL CLIP:
+0-2s: mostrar nombre del ejercicio y posicion inicial.
+2-8s: mostrar la ejecucion del movimiento con ritmo lento.
+8-10s: mostrar regla de seguridad o dolor.
+
+VIDEO 06 DE 11
+Nombre del ejercicio: Deslizamiento del nervio ciatico
+Zona: Espalda baja
+Objetivo: Reducir sensacion de compresion lumbar que baja hacia gluteo o pierna.
+
+INSTRUCCION VISUAL:
+Persona sentada al borde de una silla. Espalda alta. Una pierna se extiende al frente, los dedos del pie apuntan hacia la persona y luego la pierna baja.
+
+TEXTO EN PANTALLA:
+Desliza, no estires. 8 por pierna.
+
+VOZ EN OFF:
+Sientate al borde de una silla con la espalda alta. Estira una rodilla al frente sin bloquear con fuerza. Lleva los dedos del pie hacia ti. Luego baja la pierna y relaja el pie. Repite como un deslizamiento, no como un estiramiento sostenido.
+
+REGLA FINAL DE SEGURIDAD:
+No debe dejar dolor residual en la pierna despues de la serie.
+
+IMPORTANTE:
+Generar solo este ejercicio como un clip independiente de 10 segundos.
+Mantener este mismo estilo para todos los demas prompts de RegenMove.

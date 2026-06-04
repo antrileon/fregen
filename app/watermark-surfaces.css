@@ -1,0 +1,89 @@
+.page-watermark .glass-panel,
+.page-watermark .soft-card,
+.page-watermark .control-surface,
+.page-watermark .bg-\[\#1e2a38\],
+.page-watermark .bg-\[\#151e2b\],
+.page-watermark [class*="bg-[#1e2a38]"],
+.page-watermark [class*="bg-[#151e2b]"] {
+  background-color: var(--watermark-surface-bg, rgba(13, 24, 38, 0.08)) !important;
+  border-color: var(--watermark-surface-border, rgba(92, 113, 139, 0.68)) !important;
+  box-shadow: var(--watermark-surface-shadow, 0 18px 42px rgba(0, 0, 0, 0.08)) !important;
+  backdrop-filter: var(--watermark-surface-blur, none);
+}
+
+.page-watermark .bg-\[\#0b1220\],
+.page-watermark .bg-\[\#111827\],
+.page-watermark [class*="bg-[#0b1220]"],
+.page-watermark [class*="bg-[#111827]"] {
+  background-color: var(--watermark-control-bg, rgba(8, 14, 25, 0.06)) !important;
+  border-color: var(--watermark-control-border, rgba(92, 113, 139, 0.62)) !important;
+  backdrop-filter: var(--watermark-control-blur, none);
+}
+
+.page-watermark .bg-slate-800,
+.page-watermark .bg-slate-700,
+.page-watermark .bg-slate-600 {
+  background-color: rgba(15, 23, 42, 0.12) !important;
+  backdrop-filter: none;
+}
+
+.page-watermark .bg-amber-500\/10,
+.page-watermark .bg-amber-500\/20,
+.page-watermark .bg-emerald-500\/10,
+.page-watermark .bg-blue-500\/10 {
+  backdrop-filter: none;
+}
+
+html[data-theme='light'] .page-watermark .glass-panel,
+html[data-theme='light'] .page-watermark .soft-card,
+html[data-theme='light'] .page-watermark .control-surface,
+html[data-theme='light'] .page-watermark .bg-\[\#1e2a38\],
+html[data-theme='light'] .page-watermark .bg-\[\#151e2b\],
+html[data-theme='light'] .page-watermark .bg-\[\#0b1220\],
+html[data-theme='light'] .page-watermark .bg-\[\#111827\],
+html[data-theme='light'] .page-watermark [class*="bg-[#1e2a38]"],
+html[data-theme='light'] .page-watermark [class*="bg-[#151e2b]"],
+html[data-theme='light'] .page-watermark [class*="bg-[#0b1220]"],
+html[data-theme='light'] .page-watermark [class*="bg-[#111827]"] {
+  background-color: var(--watermark-light-surface-bg, rgba(255, 248, 239, 0.48)) !important;
+  border-color: var(--watermark-light-surface-border, rgba(214, 190, 164, 0.68)) !important;
+  box-shadow: var(--watermark-light-surface-shadow, 0 12px 28px rgba(92, 64, 42, 0.08)) !important;
+  backdrop-filter: var(--watermark-light-surface-blur, none);
+}
+
+.page-watermark.watermark-surface-text .glass-panel,
+.page-watermark.watermark-surface-text .soft-card,
+.page-watermark.watermark-surface-text .control-surface,
+.page-watermark.watermark-surface-text [class*="bg-[#1e2a38]"],
+.page-watermark.watermark-surface-text [class*="bg-[#151e2b]"],
+.page-watermark.watermark-surface-text [class*="bg-[#0b1220]"],
+.page-watermark.watermark-surface-text [class*="bg-[#111827]"] {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+  backdrop-filter: none;
+}
+
+.page-watermark.watermark-surface-text h1,
+.page-watermark.watermark-surface-text h2,
+.page-watermark.watermark-surface-text h3,
+.page-watermark.watermark-surface-text p,
+.page-watermark.watermark-surface-text span:not(.sr-only),
+.page-watermark.watermark-surface-text label {
+  text-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.55),
+    0 0 18px rgba(7, 13, 26, 0.55);
+}
+
+.page-watermark.watermark-surface-diffuse .glass-panel,
+.page-watermark.watermark-surface-diffuse .soft-card,
+.page-watermark.watermark-surface-diffuse .control-surface,
+.page-watermark.watermark-surface-diffuse [class*="bg-[#1e2a38]"],
+.page-watermark.watermark-surface-diffuse [class*="bg-[#151e2b]"],
+.page-watermark.watermark-surface-diffuse [class*="bg-[#0b1220]"],
+.page-watermark.watermark-surface-diffuse [class*="bg-[#111827]"] {
+  background-color: rgba(8, 14, 25, 0.1) !important;
+  border-color: rgba(92, 113, 139, 0.34) !important;
+  box-shadow: 0 0 40px rgba(7, 13, 26, 0.12) !important;
+  backdrop-filter: none;
+}

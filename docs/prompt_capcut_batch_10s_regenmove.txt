@@ -1,0 +1,112 @@
+PROMPT MAESTRO PARA CAPCUT IA - REGENMOVE
+
+Genera una serie de clips separados de 10 segundos, uno por ejercicio.
+Todos los clips deben tener exactamente el mismo estilo visual:
+- video clinico moderno
+- fondo claro y limpio
+- una persona con ropa deportiva neutra
+- cuerpo visible y movimiento lento
+- camara fija, plano medio o cuerpo completo segun ejercicio
+- luz suave, sin dramatizar dolor
+- texto en pantalla limpio y minimalista
+
+Estructura de cada clip de 10 segundos:
+0-2s: mostrar nombre del ejercicio y posicion inicial.
+2-8s: mostrar la ejecucion del movimiento con ritmo lento.
+8-10s: mostrar regla de seguridad o dolor.
+
+Voz en off para todos: tono calmado, profesional, breve. No prometer cura inmediata. Usar palabras como liberar, aliviar, reforzar y mejorar movilidad.
+
+CLIPS A GENERAR:
+
+CLIP 01 - Deslizamiento del nervio mediano
+Zona: Cuello
+Objetivo: Liberar tension neural cervical y disminuir dolor que baja hacia hombro, brazo o mano.
+Visual 10s: Persona de pie o sentada, torso recto. Brazo abre a 45 grados con palma hacia arriba. Muneca y dedos se extienden suavemente. La cabeza se inclina al lado contrario y vuelve al centro.
+Texto en pantalla: Tension suave. No forzar. 8 repeticiones.
+Voz en off corta: Colocate sentado o de pie con los hombros relajados. Abre el brazo a cuarenta y cinco grados con la palma hacia arriba. Extiende suavemente la muneca y los dedos, sin buscar dolor. Inclina la cabeza hacia el lado contrario y vuelve al centro. Repite lento. Debes sentir tension ligera, no corriente ni hormigueo fuerte.
+Regla de seguridad: Detener si aumenta hormigueo, corriente o dolor irradiado.
+
+CLIP 02 - Liberacion suboccipital con respiracion
+Zona: Cuello
+Objetivo: Reducir compresion cervical alta y relajar la base del craneo.
+Visual 10s: Persona acostada boca arriba. Toalla enrollada bajo la base del craneo. La barbilla hace un movimiento pequeno hacia atras mientras respira.
+Texto en pantalla: Respira. Relaja cuello. 5 respiraciones.
+Voz en off corta: Acuestate boca arriba y coloca una toalla enrollada bajo la base del craneo. Deja que el peso de la cabeza descanse sobre la toalla. Haz una pequena retraccion de barbilla, como si hicieras una papada suave. Respira lento y relaja el cuello durante cinco respiraciones. La presion debe sentirse comoda, nunca intensa.
+Regla de seguridad: Detener si aparece mareo, nausea o presion intensa.
+
+CLIP 03 - Deslizamiento del nervio radial
+Zona: Hombros
+Objetivo: Aliviar irritacion neural asociada a dolor lateral de brazo y hombro.
+Visual 10s: Persona de pie, brazo al costado. Hombro bajo. El pulgar gira hacia atras, la muneca flexiona suavemente y la cabeza acompana al lado contrario.
+Texto en pantalla: Hombro bajo. Movimiento suave. 8 repeticiones.
+Voz en off corta: De pie, deja el brazo relajado al costado. Mantén el hombro bajo y largo. Gira el brazo hacia adentro, con el pulgar apuntando hacia atras. Flexiona la muneca suavemente e inclina la cabeza al lado contrario. Vuelve al centro y repite lento.
+Regla de seguridad: Trabajar solo con tension suave. Detener si hay dolor electrico.
+
+CLIP 04 - Retracciones escapulares
+Zona: Hombros
+Objetivo: Reforzar omoplatos para reducir compresion mecanica en cuello y hombro.
+Visual 10s: Persona de pie, brazos al costado. Los omoplatos se acercan suavemente hacia atras y abajo. Mantiene tres segundos y relaja.
+Texto en pantalla: Omoplatos atras y abajo. 10 repeticiones.
+Voz en off corta: Ponte de pie con los brazos relajados. Lleva los omoplatos suavemente hacia atras, como si quisieras juntarlos. Mantén tres segundos sin subir los hombros. Relaja y vuelve a la posicion inicial. Haz el movimiento controlado, sin arquear la espalda baja.
+Regla de seguridad: Reducir rango si aparece pinchazo en la parte frontal del hombro.
+
+CLIP 05 - Apertura toracica con liberacion neural
+Zona: Espalda alta
+Objetivo: Disminuir compresion postural y mejorar movilidad de espalda alta.
+Visual 10s: Persona sentada en silla. Respaldo a media espalda. Brazos cruzados en el pecho. Extiende suavemente sobre el respaldo y regresa.
+Texto en pantalla: Abre pecho. Respira. 8 repeticiones.
+Voz en off corta: Sientate en una silla con el respaldo a media espalda. Cruza los brazos sobre el pecho. Abre el pecho hacia atras de forma suave. Respira y vuelve al centro con control. El movimiento debe venir de la espalda alta, no del cuello.
+Regla de seguridad: Evitar dolor punzante o presion intensa.
+
+CLIP 06 - Deslizamiento del nervio ciatico
+Zona: Espalda baja
+Objetivo: Reducir sensacion de compresion lumbar que baja hacia gluteo o pierna.
+Visual 10s: Persona sentada al borde de una silla. Espalda alta. Una pierna se extiende al frente, los dedos del pie apuntan hacia la persona y luego la pierna baja.
+Texto en pantalla: Desliza, no estires. 8 por pierna.
+Voz en off corta: Sientate al borde de una silla con la espalda alta. Estira una rodilla al frente sin bloquear con fuerza. Lleva los dedos del pie hacia ti. Luego baja la pierna y relaja el pie. Repite como un deslizamiento, no como un estiramiento sostenido.
+Regla de seguridad: No debe dejar dolor residual en la pierna despues de la serie.
+
+CLIP 07 - Puente corto de descarga lumbar
+Zona: Espalda baja
+Objetivo: Reforzar gluteos para quitar carga repetida de la zona lumbar.
+Visual 10s: Persona boca arriba, rodillas flexionadas y pies apoyados. Eleva cadera hasta alinear tronco y baja lento.
+Texto en pantalla: Activa gluteos. 8 repeticiones.
+Voz en off corta: Acuestate boca arriba con rodillas flexionadas y pies apoyados. Activa los gluteos suavemente. Eleva la cadera hasta formar una linea comoda con el tronco. Baja lento, vertebra por vertebra. Mantén cuello y hombros relajados.
+Regla de seguridad: Suspender si aumenta dolor lumbar durante la elevacion.
+
+CLIP 08 - Liberacion piriforme asistida
+Zona: Cadera
+Objetivo: Disminuir compresion en gluteo profundo y mejorar rotacion de cadera.
+Visual 10s: Persona boca arriba. Tobillo cruzado sobre rodilla contraria. Acerca la pierna hacia el pecho hasta tension suave y respira.
+Texto en pantalla: Tension en gluteo. 6 respiraciones por lado.
+Voz en off corta: Acuestate boca arriba. Cruza un tobillo sobre la rodilla contraria. Acerca la pierna hacia el pecho solo hasta sentir tension suave en el gluteo. Respira lento y suelta. Repite sin rebotes y sin jalar con fuerza.
+Regla de seguridad: Debe sentirse en gluteo, no como corriente por la pierna.
+
+CLIP 09 - Deslizamiento femoral suave
+Zona: Rodillas
+Objetivo: Reducir tension anterior del muslo que altera mecanica de rodilla.
+Visual 10s: Persona acostada de lado. Rodillas ligeramente flexionadas. Lleva el talon hacia gluteo hasta tension leve y regresa.
+Texto en pantalla: Pelvis estable. 8 por lado.
+Voz en off corta: Acuestate de lado con las rodillas ligeramente flexionadas. Mantén la pelvis estable. Lleva el talon hacia el gluteo hasta una tension leve en el frente del muslo. Regresa lentamente. Hazlo suave, como un bombeo, no como un estiramiento fuerte.
+Regla de seguridad: No debe aumentar dolor de rodilla ni lumbar.
+
+CLIP 10 - Sentadilla a silla
+Zona: Rodillas
+Objetivo: Mejorar tolerancia de carga y control de rodilla en actividades diarias.
+Visual 10s: Persona de pie frente a una silla. Lleva cadera atras, toca silla sin desplomarse y sube empujando el piso.
+Texto en pantalla: Cadera atras. Rodillas alineadas. 8 repeticiones.
+Voz en off corta: Ponte de pie frente a una silla estable. Coloca los pies al ancho de la cadera. Lleva la cadera hacia atras como si fueras a sentarte. Toca la silla sin dejarte caer. Sube empujando el piso y manteniendo las rodillas alineadas.
+Regla de seguridad: Reducir profundidad si el dolor supera 3 de 10.
+
+CLIP 11 - Deslizamiento tibial con bombeo de tobillo
+Zona: Tobillos
+Objetivo: Disminuir rigidez y sensacion de atrapamiento en pie y tobillo.
+Visual 10s: Persona sentada con pierna extendida. Apunta los dedos hacia adelante y luego lleva los dedos hacia si. Movimiento continuo y suave.
+Texto en pantalla: Punta y flexion. 15 repeticiones.
+Voz en off corta: Sientate con una pierna extendida. Apunta los dedos del pie hacia adelante. Luego lleva los dedos hacia ti. Repite de forma suave y continua. El movimiento debe sentirse como movilidad, no como pinchazo.
+Regla de seguridad: Detener si aparece pinchazo articular o dolor que aumenta.
+
+Indicacion final:
+Mantener el mismo personaje, fondo, iluminacion, tipografia y estilo en todos los clips.
+Exportar cada ejercicio como clip independiente de 10 segundos, pero generado desde este mismo guion maestro.

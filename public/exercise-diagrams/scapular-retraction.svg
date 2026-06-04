@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420">
+  <rect width="640" height="420" fill="#f8fafc"/>
+  <text x="32" y="48" font-family="Arial" font-size="28" font-weight="700" fill="#0f172a">Retraccion escapular</text>
+  <circle cx="320" cy="96" r="32" fill="#dbeafe" stroke="#2563eb" stroke-width="6"/>
+  <path d="M320 132v130" stroke="#2563eb" stroke-width="18" stroke-linecap="round"/>
+  <path d="M256 160c-38 54-38 104 0 150M384 160c38 54 38 104 0 150" fill="none" stroke="#16a34a" stroke-width="10" stroke-linecap="round"/>
+  <path d="M260 225h44M380 225h-44" stroke="#ef4444" stroke-width="8" stroke-linecap="round"/>
+  <path d="M294 262l-44 88M346 262l44 88" stroke="#2563eb" stroke-width="18" stroke-linecap="round"/>
+  <text x="410" y="210" font-family="Arial" font-size="18" fill="#334155">Omoplatos atras</text>
+  <text x="410" y="240" font-family="Arial" font-size="18" fill="#334155">Sin subir hombros</text>
+</svg>

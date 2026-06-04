@@ -2,85 +2,101 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
-import { supabase } from '@/lib/supabaseClient';
+import { useRouter } from 'next/navigation';
+import { useTranslation } from '@/lib/useTranslation';
+import { signInWithEmail } from '@/lib/auth';
 
 export default function LoginPage() {
+  const { t } = useTranslation();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState('');
+  const router = useRouter();
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
     setMessage('');
 
-    const { error } = await supabase.auth.signInWithPassword({
-      email,
-      password,
-    });
-
-    if (error) {
-      setMessage(error.message);
+    try {
+      await signInWithEmail(email, password);
+      router.push('/dashboard');
+    } catch (error: any) {
+      setMessage(error.message || t('auth.invalidCredentials'));
+    } finally {
       setLoading(false);
-      return;
     }
-
-    window.location.href = '/coach';
   };
 
   return (
-    <main className="min-h-screen flex items-center justify-center p-6 bg-slate-100">
-      <div className="w-full max-w-md bg-white rounded-2xl shadow p-8">
-        <h1 className="text-3xl font-bold mb-6">Iniciar sesión</h1>
+    <main className="page-watermark wm-login flex min-h-screen items-center justify-center bg-[#070d1a] p-6">
+      <div className="w-full max-w-md rounded-2xl border border-slate-700 bg-[#1e2a38] p-8 shadow-xl shadow-black/20">
+        <div className="text-center mb-8">
+          <h1 className="text-3xl font-bold text-white mb-2">
+            {t('auth.loginTitle')}
+          </h1>
+          <p className="text-slate-400">
+            {t('auth.loginDescription')}
+          </p>
+        </div>
 
         <form onSubmit={handleLogin} className="space-y-4">
           <div>
-            <label className="block mb-2 font-medium">Correo</label>
+            <label className="block mb-2 font-medium text-white">
+              {t('auth.email')}
+            </label>
             <input
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="w-full border rounded-xl px-4 py-3"
+              className="w-full rounded-xl border border-slate-600 bg-[#0b1220] px-4 py-3 text-white outline-none placeholder:text-slate-500 focus:border-amber-500 focus:ring-2 focus:ring-amber-500/20"
               required
+              placeholder="tu@email.com"
             />
           </div>
 
           <div>
-            <label className="block mb-2 font-medium">Contraseña</label>
+            <label className="block mb-2 font-medium text-white">
+              {t('auth.password')}
+            </label>
             <input
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              className="w-full border rounded-xl px-4 py-3"
+              className="w-full rounded-xl border border-slate-600 bg-[#0b1220] px-4 py-3 text-white outline-none placeholder:text-slate-500 focus:border-amber-500 focus:ring-2 focus:ring-amber-500/20"
               required
+              placeholder="••••••••"
             />
           </div>
 
           <button
             type="submit"
             disabled={loading}
-            className="w-full rounded-xl bg-slate-900 text-white py-3"
+            className="w-full rounded-xl bg-amber-500 py-3 font-bold text-slate-950 transition-colors hover:bg-amber-400 disabled:cursor-not-allowed disabled:opacity-50"
           >
-            {loading ? 'Entrando...' : 'Entrar'}
+            {loading ? t('auth.loading') : t('auth.loginButton')}
           </button>
         </form>
 
         {message && (
-          <p className="mt-4 text-sm text-slate-600">{message}</p>
+          <div className="mt-4 rounded-lg border border-red-500/50 bg-red-500/15 p-3">
+            <p className="text-sm font-semibold text-red-300">{message}</p>
+          </div>
         )}
 
-        <div className="mt-6 space-y-2 text-sm">
-          <p className="text-slate-600">
-            ¿No tienes cuenta?{' '}
-            <Link href="/signup" className="text-blue-600 underline">
-              Registrarse
-            </Link>
+        <div className="mt-6 space-y-2 text-sm text-center">
+          <p className="text-slate-400">
+            {t('auth.forgotPassword')}?{' '}
+            <button className="text-amber-400 hover:text-amber-300 underline">
+              {t('auth.resetPassword')}
+            </button>
           </p>
 
-          <p className="text-slate-600">
-            <Link href="/" className="text-blue-600 underline">
-              Volver al inicio
+          <p className="text-slate-400">
+            ¿No tienes cuenta?{' '}
+            <Link href="/signup" className="text-amber-400 hover:text-amber-300 underline">
+              {t('auth.signup')}
             </Link>
           </p>
         </div>

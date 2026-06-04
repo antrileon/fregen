@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 700" role="img" aria-label="Silueta corporal">
+  <rect width="500" height="700" fill="#f1f5f9"/>
+  <g fill="#dbeafe" stroke="#2563eb" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="250" cy="92" r="48"/>
+    <path d="M190 170c18-22 102-22 120 0l35 105c8 24-10 48-35 48H190c-25 0-43-24-35-48l35-105z"/>
+    <path d="M178 200 98 330c-10 18-4 40 14 50 18 9 39 3 49-15l61-108"/>
+    <path d="M322 200 402 330c10 18 4 40-14 50-18 9-39 3-49-15l-61-108"/>
+    <path d="M205 322 165 590c-4 25 14 48 39 52 25 3 47-14 51-39l28-198"/>
+    <path d="M295 322 335 590c4 25-14 48-39 52-25 3-47-14-51-39l-28-198"/>
+  </g>
+  <g fill="#1e40af" opacity=".08">
+    <circle cx="250" cy="92" r="70"/>
+    <ellipse cx="250" cy="285" rx="130" ry="60"/>
+    <ellipse cx="250" cy="562" rx="105" ry="52"/>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+ESTILO FIJO PARA TODOS LOS VIDEOS REGENMOVE:
+- Duracion exacta: 10 segundos.
+- Video clinico moderno, fondo claro y limpio.
+- Una persona con ropa deportiva neutra.
+- Cuerpo visible y movimiento lento, controlado y seguro.
+- Camara fija, plano medio o cuerpo completo segun ejercicio.
+- Luz suave, sin dramatizar dolor.
+- Texto en pantalla minimalista.
+- Voz en off calmada, profesional y breve.
+- No prometer cura inmediata.
+
+ESTRUCTURA OBLIGATORIA DEL CLIP:
+0-2s: mostrar nombre del ejercicio y posicion inicial.
+2-8s: mostrar la ejecucion del movimiento con ritmo lento.
+8-10s: mostrar regla de seguridad o dolor.
+
+VIDEO 10 DE 11
+Nombre del ejercicio: Sentadilla a silla
+Zona: Rodillas
+Objetivo: Mejorar tolerancia de carga y control de rodilla en actividades diarias.
+
+INSTRUCCION VISUAL:
+Persona de pie frente a una silla. Lleva cadera atras, toca silla sin desplomarse y sube empujando el piso.
+
+TEXTO EN PANTALLA:
+Cadera atras. Rodillas alineadas. 8 repeticiones.
+
+VOZ EN OFF:
+Ponte de pie frente a una silla estable. Coloca los pies al ancho de la cadera. Lleva la cadera hacia atras como si fueras a sentarte. Toca la silla sin dejarte caer. Sube empujando el piso y manteniendo las rodillas alineadas.
+
+REGLA FINAL DE SEGURIDAD:
+Reducir profundidad si el dolor supera 3 de 10.
+
+IMPORTANTE:
+Generar solo este ejercicio como un clip independiente de 10 segundos.
+Mantener este mismo estilo para todos los demas prompts de RegenMove.

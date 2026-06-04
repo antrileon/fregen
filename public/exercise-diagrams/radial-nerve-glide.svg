@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420">
+  <rect width="640" height="420" fill="#f8fafc"/>
+  <text x="32" y="48" font-family="Arial" font-size="28" font-weight="700" fill="#0f172a">Deslizamiento nervio radial</text>
+  <circle cx="318" cy="102" r="32" fill="#dbeafe" stroke="#2563eb" stroke-width="6"/>
+  <path d="M318 137v120" stroke="#2563eb" stroke-width="18" stroke-linecap="round"/>
+  <path d="M318 168 190 210" stroke="#16a34a" stroke-width="18" stroke-linecap="round"/>
+  <path d="M190 210l-48-28" stroke="#16a34a" stroke-width="12" stroke-linecap="round"/>
+  <path d="M318 170l110 35" stroke="#2563eb" stroke-width="18" stroke-linecap="round"/>
+  <path d="M428 205l55 30" stroke="#ef4444" stroke-width="10" stroke-linecap="round"/>
+  <path d="M292 257l-44 92M343 257l44 92" stroke="#2563eb" stroke-width="18" stroke-linecap="round"/>
+  <text x="380" y="292" font-family="Arial" font-size="18" fill="#334155">Pulgar atras</text>
+  <text x="380" y="322" font-family="Arial" font-size="18" fill="#334155">Hombro bajo</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420">
+  <rect width="640" height="420" fill="#f8fafc"/>
+  <text x="32" y="48" font-family="Arial" font-size="28" font-weight="700" fill="#0f172a">Deslizamiento femoral</text>
+  <rect x="120" y="308" width="420" height="22" rx="11" fill="#cbd5e1"/>
+  <circle cx="215" cy="225" r="32" fill="#dbeafe" stroke="#2563eb" stroke-width="6"/>
+  <path d="M248 232c78-42 150-42 215 0" fill="none" stroke="#2563eb" stroke-width="20" stroke-linecap="round"/>
+  <path d="M380 232l58 54" stroke="#16a34a" stroke-width="18" stroke-linecap="round"/>
+  <path d="M438 286l-62 28" stroke="#16a34a" stroke-width="14" stroke-linecap="round"/>
+  <path d="M386 178c16 52 12 94-12 126" fill="none" stroke="#ef4444" stroke-width="7" stroke-dasharray="9 9"/>
+  <text x="418" y="145" font-family="Arial" font-size="18" fill="#334155">Talon atras</text>
+  <text x="418" y="175" font-family="Arial" font-size="18" fill="#334155">Pelvis estable</text>
+</svg>

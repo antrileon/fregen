@@ -1,0 +1,36 @@
+ESTILO FIJO PARA TODOS LOS VIDEOS REGENMOVE:
+- Duracion exacta: 10 segundos.
+- Video clinico moderno, fondo claro y limpio.
+- Una persona con ropa deportiva neutra.
+- Cuerpo visible y movimiento lento, controlado y seguro.
+- Camara fija, plano medio o cuerpo completo segun ejercicio.
+- Luz suave, sin dramatizar dolor.
+- Texto en pantalla minimalista.
+- Voz en off calmada, profesional y breve.
+- No prometer cura inmediata.
+
+ESTRUCTURA OBLIGATORIA DEL CLIP:
+0-2s: mostrar nombre del ejercicio y posicion inicial.
+2-8s: mostrar la ejecucion del movimiento con ritmo lento.
+8-10s: mostrar regla de seguridad o dolor.
+
+VIDEO 08 DE 11
+Nombre del ejercicio: Liberacion piriforme asistida
+Zona: Cadera
+Objetivo: Disminuir compresion en gluteo profundo y mejorar rotacion de cadera.
+
+INSTRUCCION VISUAL:
+Persona boca arriba. Tobillo cruzado sobre rodilla contraria. Acerca la pierna hacia el pecho hasta tension suave y respira.
+
+TEXTO EN PANTALLA:
+Tension en gluteo. 6 respiraciones por lado.
+
+VOZ EN OFF:
+Acuestate boca arriba. Cruza un tobillo sobre la rodilla contraria. Acerca la pierna hacia el pecho solo hasta sentir tension suave en el gluteo. Respira lento y suelta. Repite sin rebotes y sin jalar con fuerza.
+
+REGLA FINAL DE SEGURIDAD:
+Debe sentirse en gluteo, no como corriente por la pierna.
+
+IMPORTANTE:
+Generar solo este ejercicio como un clip independiente de 10 segundos.
+Mantener este mismo estilo para todos los demas prompts de RegenMove.

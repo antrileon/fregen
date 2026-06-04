@@ -1,3 +1,308 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --rm-ink: #111827;
+  --rm-muted: #64748b;
+  --rm-line: #e2e8f0;
+  --rm-surface: rgba(255, 255, 255, 0.86);
+  --rm-blue: #2563eb;
+  --rm-teal: #0f766e;
+}
+
+html {
+  background: #070d1a;
+}
+
+html[data-theme='light'] {
+  background: #f4eadf;
+}
+
+body {
+  color: #f8fafc;
+  background: #070d1a;
+}
+
+.app-shell {
+  min-height: 100vh;
+  background: #070d1a;
+}
+
+.glass-panel {
+  border: 1px solid #3a485a;
+  background: #1e2a38;
+  box-shadow: 0 18px 42px rgba(0, 0, 0, 0.18);
+}
+
+.soft-card {
+  border: 1px solid #3a485a;
+  background: #1e2a38;
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.20);
+}
+
+.control-surface {
+  border: 1px solid #3a485a;
+  background: #111827;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03);
+}
+
+.page-watermark {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+
+.page-watermark::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image: var(--watermark-image);
+  background-position: var(--watermark-position, right 6vw top 7rem);
+  background-repeat: no-repeat;
+  background-size: var(--watermark-size, min(46rem, 68vw));
+  filter: var(--watermark-filter, grayscale(0.55) sepia(0.28) brightness(0.76) contrast(1.06));
+  opacity: var(--watermark-opacity, 0.055);
+}
+
+.page-watermark > * {
+  position: relative;
+  z-index: 1;
+}
+
+.wm-home {
+  --watermark-image: url('/brand/originals/motion-force-wide-logo.png');
+  --watermark-position: right -4rem top 7rem;
+  --watermark-size: min(48rem, 72vw);
+}
+
+.wm-assessment {
+  --watermark-image: url('/default-body-map.svg');
+  --watermark-position: right 3vw top 8rem;
+  --watermark-size: min(34rem, 58vw);
+}
+
+.wm-body-map {
+  --watermark-image: url('/body-map/body_map.png');
+  --watermark-position: left -5rem bottom -8rem;
+  --watermark-size: min(34rem, 62vw);
+}
+
+.wm-exercises {
+  --watermark-image: url('/brand/logo.png');
+  --watermark-position: right 6vw top 8rem;
+  --watermark-size: min(26rem, 48vw);
+}
+
+.wm-routine {
+  --watermark-image: url('/exercise-diagrams/sciatic-nerve-glide.svg');
+  --watermark-position: right 4vw top 8rem;
+  --watermark-size: min(34rem, 58vw);
+}
+
+.wm-functional {
+  --watermark-image: url('/brand/originals/motion-force-contact-card.jpg');
+  --watermark-position: right -7rem top 5rem;
+  --watermark-size: min(42rem, 70vw);
+}
+
+.wm-tracking {
+  --watermark-image: url('/exercise-diagrams/thoracic-opener.svg');
+  --watermark-position: right 4vw top 9rem;
+  --watermark-size: min(32rem, 56vw);
+}
+
+.wm-dashboard {
+  --watermark-image: url('/brand/originals/motion-force-wide-logo-alt.png');
+  --watermark-position: right -4rem top 7rem;
+  --watermark-size: min(46rem, 72vw);
+}
+
+.wm-login {
+  --watermark-image: url('/brand/logo.png');
+  --watermark-position: left 8vw bottom 5rem;
+  --watermark-size: min(22rem, 54vw);
+}
+
+@keyframes demo-progress {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes demo-limb {
+  0%, 100% {
+    transform: rotate(-18deg);
+  }
+  50% {
+    transform: rotate(22deg);
+  }
+}
+
+@keyframes demo-limb-reverse {
+  0%, 100% {
+    transform: rotate(20deg);
+  }
+  50% {
+    transform: rotate(-16deg);
+  }
+}
+
+@keyframes demo-arm {
+  0%, 100% {
+    transform: rotate(-8deg);
+  }
+  50% {
+    transform: rotate(18deg);
+  }
+}
+
+@keyframes pain-marker-float {
+  0%, 100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    transform: translate(-50%, calc(-50% - 4px)) scale(1.06);
+  }
+}
+
+.pain-marker {
+  animation: pain-marker-float 2.4s ease-in-out infinite;
+}
+
+.animate-demo-progress {
+  animation: demo-progress 10s linear infinite;
+}
+
+.animate-demo-limb {
+  animation: demo-limb 10s ease-in-out infinite;
+}
+
+.animate-demo-limb-reverse {
+  animation: demo-limb-reverse 10s ease-in-out infinite;
+}
+
+.animate-demo-arm {
+  animation: demo-arm 10s ease-in-out infinite;
+}
+
+html[data-theme='light'] body,
+html[data-theme='light'] .app-shell {
+  background:
+    radial-gradient(circle at 10% 0%, rgba(251, 191, 36, 0.10), transparent 24rem),
+    radial-gradient(circle at 90% 8%, rgba(180, 83, 9, 0.08), transparent 24rem),
+    #f4eadf;
+  color: #0f172a;
+}
+
+html[data-theme='light'] .bg-\[\#070d1a\],
+html[data-theme='light'] .bg-\[\#0b1220\],
+html[data-theme='light'] .bg-\[\#111827\] {
+  background-color: rgba(255, 248, 239, 0.54) !important;
+  backdrop-filter: blur(10px);
+}
+
+html[data-theme='light'] .bg-\[\#151e2b\],
+html[data-theme='light'] .bg-\[\#1e2a38\],
+html[data-theme='light'] .soft-card,
+html[data-theme='light'] .glass-panel,
+html[data-theme='light'] .control-surface {
+  background-color: rgba(255, 248, 239, 0.68) !important;
+  border-color: #e7d6c4 !important;
+  box-shadow: 0 12px 28px rgba(92, 64, 42, 0.08) !important;
+  backdrop-filter: blur(12px);
+}
+
+html[data-theme='light'] .text-white {
+  color: #0f172a !important;
+}
+
+html[data-theme='light'] .text-slate-200,
+html[data-theme='light'] .text-slate-300,
+html[data-theme='light'] .text-slate-400 {
+  color: #635648 !important;
+}
+
+html[data-theme='light'] .text-amber-400,
+html[data-theme='light'] .text-amber-300 {
+  color: #e07000 !important;
+}
+
+html[data-theme='light'] .border-slate-700,
+html[data-theme='light'] .border-slate-600 {
+  border-color: #e7d6c4 !important;
+}
+
+html[data-theme='light'] .bg-slate-800 {
+  background-color: rgba(234, 223, 206, 0.58) !important;
+  backdrop-filter: blur(10px);
+}
+
+html[data-theme='light'] .bg-slate-700,
+html[data-theme='light'] .bg-slate-600 {
+  background-color: rgba(234, 221, 204, 0.62) !important;
+  backdrop-filter: blur(10px);
+}
+
+html[data-theme='light'] .hover\:bg-slate-700:hover,
+html[data-theme='light'] .hover\:bg-slate-600:hover,
+html[data-theme='light'] .hover\:bg-slate-500:hover {
+  background-color: #dcc8b3 !important;
+}
+
+html[data-theme='light'] .bg-amber-500 {
+  background-color: #d48a1f !important;
+}
+
+html[data-theme='light'] .hover\:bg-amber-400:hover,
+html[data-theme='light'] .hover\:bg-amber-500:hover {
+  background-color: #bf7414 !important;
+}
+
+html[data-theme='light'] .text-slate-950 {
+  color: #1c1309;
+}
+
+html[data-theme='light'] input,
+html[data-theme='light'] select,
+html[data-theme='light'] textarea {
+  color: #0f172a;
+  background-color: rgba(255, 250, 243, 0.70) !important;
+  border-color: #d8c7b4 !important;
+  backdrop-filter: blur(10px);
+}
+
+html[data-theme='light'] .bg-white {
+  background-color: #fffaf3 !important;
+}
+
+html[data-theme='light'] .bg-slate-50,
+html[data-theme='light'] .bg-blue-50,
+html[data-theme='light'] .bg-amber-50 {
+  background-color: rgba(241, 229, 214, 0.62) !important;
+  backdrop-filter: blur(10px);
+}
+
+html[data-theme='light'] .text-blue-700,
+html[data-theme='light'] .text-blue-600,
+html[data-theme='light'] .text-amber-800,
+html[data-theme='light'] .text-amber-900 {
+  color: #b85b00 !important;
+}
+
+html[data-theme='light'] .text-red-200,
+html[data-theme='light'] .text-red-300 {
+  color: #9f1d1d !important;
+}
+
+html[data-theme='light'] .border-blue-200,
+html[data-theme='light'] .border-amber-200,
+html[data-theme='light'] .border-slate-200 {
+  border-color: #e1cfba !important;
+}

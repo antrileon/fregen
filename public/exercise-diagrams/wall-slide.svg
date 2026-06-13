@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420">
+  <rect width="640" height="420" fill="#f8fafc"/>
+  <text x="32" y="48" font-family="Arial" font-size="28" font-weight="700" fill="#0f172a">Wall slide escapular</text>
+  <rect x="420" y="72" width="28" height="280" rx="8" fill="#cbd5e1"/>
+  <circle cx="290" cy="104" r="32" fill="#dbeafe" stroke="#2563eb" stroke-width="6"/>
+  <path d="M290 140v128" stroke="#2563eb" stroke-width="18" stroke-linecap="round"/>
+  <path d="M286 166l95 18M286 210l96-8" stroke="#16a34a" stroke-width="16" stroke-linecap="round"/>
+  <path d="M378 180v-78M382 202v78" stroke="#f59e0b" stroke-width="8" stroke-linecap="round"/>
+  <path d="M365 116l13-18 13 18M369 266l13 18 13-18" fill="none" stroke="#f59e0b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="70" y="365" font-family="Arial" font-size="18" font-weight="700" fill="#475569">Antebrazos suben sin encoger hombros</text>
+</svg>

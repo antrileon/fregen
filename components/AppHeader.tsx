@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
+import { usePathname } from 'next/navigation';
 import { useTranslation } from '@/lib/useTranslation';
 import { getCurrentSession, signOutUser } from '@/lib/auth';
 import { BrandLogo } from '@/components/BrandLogo';
@@ -12,6 +13,9 @@ export function AppHeader() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [theme, setTheme] = useState<'dark' | 'light'>('dark');
   const router = useRouter();
+  const pathname = usePathname();
+
+  const isStandaloneTool = pathname?.startsWith('/app-builder') || pathname?.startsWith('/figure-robot');
 
   useEffect(() => {
     checkAuthStatus();
@@ -53,6 +57,10 @@ export function AppHeader() {
     document.documentElement.dataset.theme = nextTheme;
     window.localStorage.setItem('regenmove.theme', nextTheme);
   };
+
+  if (isStandaloneTool) {
+    return null;
+  }
 
   return (
     <header className="sticky top-0 z-40 border-b border-slate-700 bg-[#0b1220] shadow-sm">

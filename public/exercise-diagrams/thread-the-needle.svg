@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420">
+  <rect width="640" height="420" fill="#f8fafc"/>
+  <text x="32" y="48" font-family="Arial" font-size="28" font-weight="700" fill="#0f172a">Thread the needle</text>
+  <circle cx="260" cy="138" r="30" fill="#dbeafe" stroke="#2563eb" stroke-width="6"/>
+  <path d="M285 160c72 20 120 62 145 128" fill="none" stroke="#2563eb" stroke-width="20" stroke-linecap="round"/>
+  <path d="M335 206l-142 70" stroke="#16a34a" stroke-width="16" stroke-linecap="round"/>
+  <path d="M375 212l86-72" stroke="#16a34a" stroke-width="16" stroke-linecap="round"/>
+  <path d="M220 300h260" stroke="#94a3b8" stroke-width="18" stroke-linecap="round"/>
+  <path d="M435 120c38 54 38 112 0 166" fill="none" stroke="#f59e0b" stroke-width="8" stroke-dasharray="10 9"/>
+  <text x="70" y="365" font-family="Arial" font-size="18" font-weight="700" fill="#475569">Rota espalda alta, no cargues el cuello</text>
+</svg>

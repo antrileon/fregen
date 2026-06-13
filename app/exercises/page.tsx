@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { useMemo, useState } from 'react';
 import { RoutineCard } from '@/components/RoutineCard';
 import { regenMoveExerciseDNASeed } from '@/lib/regenmove/exerciseSeedData';
@@ -76,6 +77,24 @@ export default function ExercisesPage() {
                 </button>
               ))}
             </div>
+          </div>
+        </section>
+
+        <section className="glass-panel mt-6 rounded-2xl p-5">
+          <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+            <div>
+              <p className="text-sm font-bold uppercase tracking-wide text-amber-400">Rutina diaria</p>
+              <h2 className="mt-1 text-2xl font-bold text-white">Usa esta biblioteca dentro de una secuencia guiada</h2>
+              <p className="mt-2 max-w-3xl text-sm leading-6 text-slate-300">
+                El modo rutina mezcla preparacion, seguridad, liberacion, movilidad, refuerzo y reevaluacion. Las fichas completas de estos ejercicios siguen apareciendo dentro de cada paso.
+              </p>
+            </div>
+            <Link
+              href={`/routine?area=${area === 'all' ? 'lower_back' : area}&intensity=5`}
+              className="inline-flex shrink-0 items-center justify-center rounded-xl border border-amber-500 bg-amber-500 px-5 py-3 text-sm font-bold text-slate-950 transition hover:bg-amber-400"
+            >
+              Abrir rutina mezclada
+            </Link>
           </div>
         </section>
 

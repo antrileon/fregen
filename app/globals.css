@@ -109,6 +109,14 @@ body {
   --watermark-size: min(42rem, 70vw);
 }
 
+.wm-builder {
+  --watermark-image: url('/brand/originals/motion-force-wide-logo-alt.png');
+  --watermark-position: right -5rem top 6rem;
+  --watermark-size: min(42rem, 68vw);
+  --watermark-filter: grayscale(0.45) sepia(0.18) hue-rotate(132deg) brightness(0.72) contrast(1.08);
+  --watermark-opacity: 0.045;
+}
+
 .wm-tracking {
   --watermark-image: url('/exercise-diagrams/thoracic-opener.svg');
   --watermark-position: right 4vw top 9rem;

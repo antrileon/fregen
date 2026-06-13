@@ -3,7 +3,8 @@
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
 import { Suspense, useMemo, useState } from 'react';
-import { RoutineCard } from '@/components/RoutineCard';
+import { ProfileRadar } from '@/components/ProfileRadar';
+import { RoutineTimeline } from '@/components/RoutineTimeline';
 import { areaLabels, getExercisesForArea, isBodyArea, saveProgressLog } from '@/lib/routines';
 import { buildRegenMoveProfile } from '@/lib/regenmove/assessmentEngine';
 import { regenMoveExerciseDNASeed } from '@/lib/regenmove/exerciseSeedData';
@@ -73,35 +74,13 @@ function RoutineContent() {
             </Link>
           </div>
 
-          <div className="space-y-5">
-            {exercises.map((exercise) => (
-              <RoutineCard
-                key={exercise.id}
-                exercise={exercise}
-                checked={completed.includes(exercise.id)}
-                onToggle={() => toggleExercise(exercise.id)}
-              />
-            ))}
-          </div>
-
-          {supportExercises.length > 0 && (
-            <div className="mt-6 rounded-2xl border border-slate-700 bg-[#1e2a38] p-5 shadow-xl shadow-black/20">
-              <p className="text-sm font-bold uppercase tracking-wide text-amber-400">Apoyos V2</p>
-              <h2 className="mt-2 text-xl font-bold text-white">Respiracion, espiral y control</h2>
-              <div className="mt-4 grid gap-3 md:grid-cols-2">
-                {supportExercises.map((exercise) => (
-                  <article key={exercise.id} className="rounded-xl border border-slate-700 bg-[#0b1220] p-4">
-                    <p className="font-bold text-white">{exercise.name}</p>
-                    <p className="mt-1 text-xs text-slate-400">
-                      {exercise.category} · {exercise.durationSeconds}s · {exercise.difficulty}
-                    </p>
-                    <p className="mt-3 text-sm leading-6 text-slate-300">{exercise.coachCues[0]}</p>
-                    <p className="mt-2 text-xs font-semibold text-amber-300">{exercise.painRule}</p>
-                  </article>
-                ))}
-              </div>
-            </div>
-          )}
+          <RoutineTimeline
+            exercises={exercises}
+            supportExercises={supportExercises}
+            profile={profile}
+            completed={completed}
+            onToggle={toggleExercise}
+          />
         </section>
 
         <aside className="rounded-2xl border border-slate-700 bg-[#1e2a38] p-5 shadow-xl shadow-black/20 lg:sticky lg:top-24 lg:self-start">
@@ -111,14 +90,8 @@ function RoutineContent() {
           </p>
           <p className="text-sm text-slate-400">ejercicios completados</p>
 
-          <div className="mt-5 rounded-xl border border-slate-700 bg-[#0b1220] p-4">
-            <p className="text-xs font-bold uppercase tracking-wide text-amber-400">Perfil V2</p>
-            <div className="mt-3 space-y-2 text-sm text-slate-300">
-              <p>Neural: {profile.neuralScore}/100</p>
-              <p>Fascial: {profile.fascialScore}/100</p>
-              <p>Espiral: {profile.spiralScore}/100</p>
-              <p>Seguridad: {profile.safetyScore}/100</p>
-            </div>
+          <div className="mt-5">
+            <ProfileRadar profile={profile} compact />
           </div>
 
           <div className="mt-5 space-y-4">

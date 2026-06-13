@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420">
+  <rect width="640" height="420" fill="#f8fafc"/>
+  <text x="32" y="48" font-family="Arial" font-size="28" font-weight="700" fill="#0f172a">Bird dog corto</text>
+  <circle cx="250" cy="135" r="30" fill="#dbeafe" stroke="#2563eb" stroke-width="6"/>
+  <path d="M280 160c76 18 132 58 168 122" fill="none" stroke="#2563eb" stroke-width="20" stroke-linecap="round"/>
+  <path d="M325 202l-112 85M405 250l135 18" stroke="#16a34a" stroke-width="17" stroke-linecap="round"/>
+  <path d="M350 286l-24 54M455 286l32 54" stroke="#2563eb" stroke-width="16" stroke-linecap="round"/>
+  <path d="M205 298h340" stroke="#94a3b8" stroke-width="14" stroke-linecap="round"/>
+  <text x="70" y="365" font-family="Arial" font-size="18" font-weight="700" fill="#475569">Extiende cruzado sin arquear la espalda</text>
+</svg>

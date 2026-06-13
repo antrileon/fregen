@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420">
+  <rect width="640" height="420" fill="#f8fafc"/>
+  <text x="32" y="48" font-family="Arial" font-size="28" font-weight="700" fill="#0f172a">Deslizamiento nervio ulnar</text>
+  <circle cx="318" cy="104" r="32" fill="#dbeafe" stroke="#2563eb" stroke-width="6"/>
+  <path d="M318 140v112" stroke="#2563eb" stroke-width="18" stroke-linecap="round"/>
+  <path d="M318 165c-72 20-110 70-118 132" fill="none" stroke="#16a34a" stroke-width="18" stroke-linecap="round"/>
+  <path d="M200 298c28-18 50-18 70 2" fill="none" stroke="#16a34a" stroke-width="12" stroke-linecap="round"/>
+  <path d="M318 165l102 44" stroke="#2563eb" stroke-width="18" stroke-linecap="round"/>
+  <path d="M355 94c-18 28-18 52 0 78" fill="none" stroke="#ef4444" stroke-width="7" stroke-dasharray="9 8"/>
+  <text x="70" y="365" font-family="Arial" font-size="18" font-weight="700" fill="#475569">Mano hacia oreja, hombro bajo, cuello suave</text>
+</svg>

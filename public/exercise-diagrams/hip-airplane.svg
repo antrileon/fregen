@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420">
+  <rect width="640" height="420" fill="#f8fafc"/>
+  <text x="32" y="48" font-family="Arial" font-size="28" font-weight="700" fill="#0f172a">Hip airplane asistido</text>
+  <rect x="495" y="78" width="24" height="250" rx="8" fill="#cbd5e1"/>
+  <circle cx="310" cy="112" r="32" fill="#dbeafe" stroke="#2563eb" stroke-width="6"/>
+  <path d="M310 148l48 100" stroke="#2563eb" stroke-width="18" stroke-linecap="round"/>
+  <path d="M330 178l145 28" stroke="#16a34a" stroke-width="15" stroke-linecap="round"/>
+  <path d="M358 248l-42 96M358 248l124 32" stroke="#16a34a" stroke-width="17" stroke-linecap="round"/>
+  <path d="M246 230c55-42 112-42 170 0" fill="none" stroke="#f59e0b" stroke-width="8" stroke-dasharray="9 8"/>
+  <text x="70" y="365" font-family="Arial" font-size="18" font-weight="700" fill="#475569">Apoyo en pared, pelvis abre y cierra con control</text>
+</svg>

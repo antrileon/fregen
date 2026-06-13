@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420">
+  <rect width="640" height="420" fill="#f8fafc"/>
+  <text x="32" y="48" font-family="Arial" font-size="28" font-weight="700" fill="#0f172a">McGill curl-up modificado</text>
+  <rect x="90" y="316" width="460" height="22" rx="11" fill="#cbd5e1"/>
+  <circle cx="190" cy="244" r="32" fill="#dbeafe" stroke="#2563eb" stroke-width="6"/>
+  <path d="M222 250c78-34 165-24 250 24" fill="none" stroke="#2563eb" stroke-width="20" stroke-linecap="round"/>
+  <path d="M350 270l-70 45M430 274l82 38" stroke="#16a34a" stroke-width="17" stroke-linecap="round"/>
+  <path d="M188 210c28-26 62-26 96 0" fill="none" stroke="#f59e0b" stroke-width="8" stroke-linecap="round"/>
+  <text x="70" y="365" font-family="Arial" font-size="18" font-weight="700" fill="#475569">Eleva apenas cabeza y hombros, lumbar neutra</text>
+</svg>

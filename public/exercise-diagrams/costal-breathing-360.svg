@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420">
+  <rect width="640" height="420" fill="#f8fafc"/>
+  <text x="32" y="48" font-family="Arial" font-size="28" font-weight="700" fill="#0f172a">Respiracion costal 360</text>
+  <circle cx="320" cy="104" r="32" fill="#dbeafe" stroke="#2563eb" stroke-width="6"/>
+  <path d="M320 140v130" stroke="#2563eb" stroke-width="18" stroke-linecap="round"/>
+  <ellipse cx="320" cy="205" rx="92" ry="58" fill="none" stroke="#16a34a" stroke-width="12"/>
+  <path d="M206 205h-46M434 205h46M320 124v-38M320 286v42" stroke="#f59e0b" stroke-width="8" stroke-linecap="round"/>
+  <path d="M168 190l-18 15 18 15M472 190l18 15-18 15" fill="none" stroke="#f59e0b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="70" y="365" font-family="Arial" font-size="18" font-weight="700" fill="#475569">Expande costillas hacia lados y espalda</text>
+</svg>

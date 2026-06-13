@@ -2,6 +2,7 @@
 
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';
+import { ProfileRadar } from '@/components/ProfileRadar';
 import { areaLabels, getExercisesForArea, saveAssessment } from '@/lib/routines';
 import { buildRegenMoveProfile } from '@/lib/regenmove/assessmentEngine';
 import type { BodyArea } from '@/lib/types';
@@ -258,12 +259,9 @@ export default function AssessmentPage() {
           <div className="mt-4 border-l-2 border-amber-500/60 pl-4">
             <p className="text-xs font-bold uppercase tracking-wide text-amber-400">Perfil V2</p>
             <p className="mt-2 text-sm font-semibold text-white">{regenMoveProfile.routineIntent}</p>
-            <div className="mt-3 grid grid-cols-2 gap-2 text-xs text-slate-400">
-              <span>Neural {regenMoveProfile.neuralScore}</span>
-              <span>Fascial {regenMoveProfile.fascialScore}</span>
-              <span>Espiral {regenMoveProfile.spiralScore}</span>
-              <span>Seguridad {regenMoveProfile.safetyScore}</span>
-            </div>
+          </div>
+          <div className="mt-4">
+            <ProfileRadar profile={regenMoveProfile} compact />
           </div>
           <div className="mt-4 space-y-2">
             {recommended.map((exercise) => (

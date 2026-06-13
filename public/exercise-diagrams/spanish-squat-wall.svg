@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420">
+  <rect width="640" height="420" fill="#f8fafc"/>
+  <text x="32" y="48" font-family="Arial" font-size="28" font-weight="700" fill="#0f172a">Spanish squat sin banda</text>
+  <rect x="430" y="90" width="28" height="250" rx="8" fill="#cbd5e1"/>
+  <circle cx="310" cy="112" r="32" fill="#dbeafe" stroke="#2563eb" stroke-width="6"/>
+  <path d="M310 148l42 92" stroke="#2563eb" stroke-width="18" stroke-linecap="round"/>
+  <path d="M352 240l-72 82M352 240l86 72" stroke="#16a34a" stroke-width="17" stroke-linecap="round"/>
+  <path d="M270 252h170" stroke="#f59e0b" stroke-width="8" stroke-dasharray="10 8"/>
+  <text x="70" y="365" font-family="Arial" font-size="18" font-weight="700" fill="#475569">Pausa isometrica, espalda cerca de pared</text>
+</svg>

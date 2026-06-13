@@ -44,3 +44,6 @@ new/
 mega_learning.sqlite
 mega_trading_bot.py
 regenmove-complete-documentation.zip
+exports/
+regenmove_selected_watermarks_*/
+regenmove_selected_watermarks_*.zip
